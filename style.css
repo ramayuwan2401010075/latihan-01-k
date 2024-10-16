@@ -1,1 +1,7 @@
 /* Add styles here */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: blue;
+}

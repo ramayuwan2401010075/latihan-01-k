@@ -6,12 +6,34 @@
   <title>Hello World</title>
   <link href='/style.css' rel='stylesheet'>
 <style>
+  p{font-size:30px;}
   h1{color: aqua; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
   h2{color: rgb(238, 164, 68); font-family:'Times New Roman', Times, serif}
   h3{color: rgb(126, 126, 14); font-family:Georgia, 'Times New Roman', Times, serif}
-  h4{color: blue;font-weight: bold; text-shadow: 2px 2px #c8c8c8;}
-  h5{color: blueviolet;font-weight: bold;}
+  h4{color: blue;font-weight: bold; text-shadow: 10px 10px #c8c8c8; font-size: 30px;}
+  h5{color: blueviolet;font-weight: bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;}
   h6{color: brown;font-size: 20px; font-weight: bold;}
+  button{
+    background-color: rgb(0, 195, 255);
+    color:rgb(0, 0, 0);
+    padding: 05px 20px 05px 20px;
+    font-size: 30px;
+    border:none;
+    border-radius: 10px 20px;
+  }
+  table{
+    width: 100%;
+  }
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+    text-align: center;
+  }
+  tr:hover{
+    background-color: bisque;
+  }
   </style>
 </head>
 
@@ -21,8 +43,58 @@
   <h3>yoooooooooo</h3>
   <h4>yeeeeeeeeee</h4>
   <h5>yiiii</h5>
-  <h6>kelas bang</h6>
+  <h6>menyala wi</h6>
   <button onclick="console.log('yooooo');">tekan</button>
   <script defer type="text/javascript" src="/main.js"></script>
+  <p><b>Seekor kera</b> terkurung, terpenjara dalam goa,<br>
+    Digunung tinggi sunyi tempat hukuman <i>para dewa</i>,<br>
+    Bertindak sesuka hati loncat kesana kesini,<br>
+    Hiraukan semua masalah <u>dimuka bumi ini</u><br>
+    Dengan sehelai rambut dan bulu dari tubuhnya<br>
+    Dia merubah, menerjang, menerpa segala apa yang ada<br>
+    H<sub>2</sub>O<br>
+    O<sub>2</sub><br>
+    500m<sup>3</sup><br>
+
+    <h3>Daftar Matkul</h3>
+    <ul style="color: red;list-style:upper-alpha;">
+      <li>MTK Komputer</li>
+      <li>APB</li>
+    </ul>
+    <hr>
+    <ol style="color: blue;list-style:lower-alpha;">
+      <li>Web Desain</li>
+      <li>Pengantar TI</li>
+    </ol>
+  </p>
+  <p>
+    <h3>Tabel Harga</h3>
+    <table>
+      <thead>
+      <tr>
+        <th>Nomor</th>
+        <th>Item Barang</th>
+        <th>Harga Satuan</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1.</td>
+        <td>melon</td>
+        <td>10.000</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>semangka</td>
+        <td>20.000</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>jeruk</td>
+        <td>1000</td>
+      </tbody>
+      </tr>
+    </table>
+  </p>
 </body>
 </html>
