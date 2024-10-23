@@ -34,6 +34,27 @@
   tr:hover{
     background-color: bisque;
   }
+
+  label{font-size: 14px;font-weight: bold;}
+  input[type=text], input[type=number], input[type=date], input[type=time],input[type=password]{
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    border-radius:5px;
+    margin: 8px 0;
+    background-color: black;
+    color: aliceblue;
+  }
+  select{
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    border-radius:5px;
+    margin: 8px 0;
+    background-color: black;
+    color: aliceblue;
+  }
+  input[type=checkbox],input[type=radio]{
+    outline: 1px solid crimson;
+  }
   </style>
 </head>
 
@@ -96,5 +117,32 @@
       </tr>
     </table>
   </p>
+ <form> 
+  <label>Form Text</label>
+   <input type="text" name="txalamat" value="..." >
+  <label> form number</label>
+   <input type="number">
+  <label>form TGL</label>
+   <input type="date">
+  <label>form waktu</label>
+    <input type="time">
+  <label>form pilihan</label>
+    <input type="radio" name="jnsk" >laki-laki
+    <input type="radio" name="jnsk" >perempuan
+  <br>
+  <input type="checkbox">sepak bola
+  <input type="checkbox">silat
+  <input type="checkbox">tinju
+ <label>form pilihan lain</label>
+  <select>
+    <option disable selected> silahkan pilih warna</option>
+    <option>merah</option>
+    <option>putih</option>
+    <option>biru</option>
+  </select> 
+  <label>form password</label>
+  <input type="password" name="txPASS">
+  <input type="submit"value="tombol">
+ </form>
 </body>
 </html>
